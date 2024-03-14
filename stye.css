@@ -1,0 +1,73 @@
+form{
+    display: flex;
+    margin: auto;
+    width: 75%;
+}
+form div{
+    margin: 2rem;
+    margin: auto;
+}
+.color, .options, .submit{
+    height: 35px;
+    outline: none;
+    border: 1px solid rgb(218, 211, 211);
+    border-radius: 5px;
+}
+.color-code{
+    margin-top: 410px;
+    text-align: center;
+
+}
+.color{
+    width: 80px;
+}
+
+.submit{
+    background-color: rgb(146, 154, 227);
+    color: black;
+}
+.submit:hover{
+    background-color: rgb(219, 211, 211);
+}
+.colors {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2px;
+    margin-top: 20px; 
+}
+
+.color-box {
+    width: 150px; 
+    height:400px; 
+}
+
+@media screen and (max-width:800px) {
+    .color-box {
+        width: 67px; 
+    }
+    .color-code{
+        font-size: 10px;
+        text-align: center;
+    }
+    .colors{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+}
+@media screen and (max-width:300px) {
+    .color-box {
+        width: 50px; 
+        height:400px; 
+    }
+    .color-code{
+        margin-top: 410px;
+        text-align: center;
+        font-size: 10px;
+    }
+}
+
+
